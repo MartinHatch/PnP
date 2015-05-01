@@ -47,7 +47,7 @@ jslinkOverride.Taxonomy.Functions.MdsRegisterTemplate = function () {
 
     // and make sure our custom view fires each time MDS performs
     // a page transition
-    var thisUrl = _spPageContextInfo.siteServerRelativeUrl + "Style Library/OfficeDevPnP/Branding.JSLink/TemplateOverrides/TaxonomyOverrides.js";
+    var thisUrl = _spPageContextInfo.siteServerRelativeUrl + "/Style Library/OfficeDevPnP/Branding.JSLink/TemplateOverrides/TaxonomyOverrides.js";
     RegisterModuleInit(thisUrl, jslinkOverride.Taxonomy.Functions.RegisterTemplate)
 };
 

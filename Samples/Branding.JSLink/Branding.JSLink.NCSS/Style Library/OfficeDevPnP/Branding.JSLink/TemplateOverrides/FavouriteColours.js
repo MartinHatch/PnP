@@ -25,7 +25,7 @@ jslinkOverride.Colours.Functions.MdsRegisterTemplate = function () {
 
     // and make sure our custom view fires each time MDS performs
     // a page transition
-    var thisUrl = _spPageContextInfo.siteServerRelativeUrl + "Style Library/OfficeDevPnP/Branding.JSLink/TemplateOverrides/FavouriteColours.js";
+    var thisUrl = _spPageContextInfo.siteServerRelativeUrl + "/Style Library/OfficeDevPnP/Branding.JSLink/TemplateOverrides/FavouriteColours.js";
     RegisterModuleInit(thisUrl, jslinkOverride.Colours.Functions.RegisterTemplate)
 };
 

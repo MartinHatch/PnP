@@ -31,7 +31,7 @@ jslinkOverride.GoogleMaps.Functions.MdsRegisterTemplate = function () {
     jslinkOverride.GoogleMaps.Functions.RegisterTemplate();
 
     // and make sure our custom view fires each time MDS performs a page transition
-    var thisUrl = _spPageContextInfo.siteServerRelativeUrl + "Style Library/OfficeDevPnP/Branding.JSLink/TemplateOverrides/GoogleMapOverrides.js";
+    var thisUrl = _spPageContextInfo.siteServerRelativeUrl + "/Style Library/OfficeDevPnP/Branding.JSLink/TemplateOverrides/GoogleMapOverrides.js";
     RegisterModuleInit(thisUrl, jslinkOverride.GoogleMaps.Functions.RegisterTemplate)
 };
 

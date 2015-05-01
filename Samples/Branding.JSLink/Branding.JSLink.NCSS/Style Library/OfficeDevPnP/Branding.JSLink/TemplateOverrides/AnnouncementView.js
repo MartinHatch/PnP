@@ -46,7 +46,7 @@ jslinkViews.Functions.MdsRegisterTemplate = function () {
 
     // and make sure our custom view fires each time MDS performs
     // a page transition
-    var thisUrl = _spPageContextInfo.siteServerRelativeUrl + "Style Library/OfficeDevPnP/Branding.JSLink/TemplateOverrides/AnnouncementView.js";
+    var thisUrl = _spPageContextInfo.siteServerRelativeUrl + "/Style Library/OfficeDevPnP/Branding.JSLink/TemplateOverrides/AnnouncementView.js";
     RegisterModuleInit(thisUrl, jslinkViews.Functions.RegisterTemplate)
 };
 
